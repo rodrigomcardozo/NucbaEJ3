@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Puedes cambiar el color de fondo según tus preferencias */
+    color: #fff; /* Puedes cambiar el color del texto según tus preferencias */
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .header img {
+    max-height: 50px; /* Ajusta la altura del logo según tus preferencias */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 15px; /* Ajusta el espacio entre elementos según tus preferencias */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  nav li:hover {
+    transform: scale(1.1); /* Ajusta la escala del elemento al pasar el ratón */
+  }
+  
